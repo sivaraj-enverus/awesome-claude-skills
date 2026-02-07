@@ -30,7 +30,7 @@ Think of skills as "onboarding guides" that transform Claude from a general-purp
 Before you begin, make sure you have:
 
 - **Claude.ai Account**: Sign up at [claude.ai](https://claude.ai) (free or paid tier)
-- **Claude Code**: For CLI usage, install Claude Code from [official source](https://www.anthropic.com/)
+- **Claude Code**: For CLI usage, install Claude Code (available via Anthropic's official channels)
 - **API Access**: For programmatic usage, obtain an API key from [console.anthropic.com](https://console.anthropic.com)
 
 ## Installation & Setup
@@ -396,8 +396,11 @@ Now that you have Claude Skills set up:
 
 ## Getting Help
 
+**For Claude Skills:**
 - **Documentation:** [Official Skills Guide](https://support.claude.com/en/articles/12512180-using-skills-in-claude)
 - **Community:** [Anthropic Community](https://community.anthropic.com)
-- **Discord:** [Join Composio Discord](https://discord.com/invite/composio)
 - **Issues:** [Report issues on GitHub](https://github.com/sivaraj-enverus/awesome-claude-skills/issues)
+
+**For Composio Integration:**
+- **Discord:** [Join Composio Discord](https://discord.com/invite/composio)
 - **Email:** support@composio.dev

@@ -685,11 +685,13 @@ To add a skill to this repository:
 
 ## Resources
 
+> **Note:** External documentation URLs may change. Visit [anthropic.com](https://www.anthropic.com) for the latest official documentation.
+
 - **Official Docs**: [Claude Skills Overview](https://www.anthropic.com/news/skills)
 - **User Guide**: [Using Skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)
 - **Creating Skills**: [Creating Custom Skills](https://support.claude.com/en/articles/12512198-creating-custom-skills)
-- **API Guide**: [Skills API Documentation](https://docs.claude.com/en/api/skills-guide)
-- **Engineering Deep Dive**: [Agent Skills Blog](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
+- **API Guide**: See Anthropic API documentation for Skills integration
+- **Engineering Blog**: Visit Anthropic blog for technical deep dives on Agent Skills
 
 ## Conclusion
 
