@@ -76,6 +76,7 @@ If you receive the email, Claude is now connected to 500+ apps.
 ## Contents
 
 - [What Are Claude Skills?](#what-are-claude-skills)
+- [📚 Documentation](#-documentation)
 - [Skills](#skills)
   - [Document Processing](#document-processing)
   - [Development & Code Tools](#development--code-tools)
@@ -96,6 +97,52 @@ If you receive the email, Claude is now connected to 500+ apps.
 ## What Are Claude Skills?
 
 Claude Skills are customizable workflows that teach Claude how to perform specific tasks according to your unique requirements. Skills enable Claude to execute tasks in a repeatable, standardized manner across all Claude platforms.
+
+### How It Works
+
+```
+┌─────────────┐
+│  User Input │ ──→ "Analyze my meeting transcripts"
+└──────┬──────┘
+       │
+       ↓
+┌──────────────────────────────┐
+│  Claude Matches to Skill     │
+│  (meeting-insights-analyzer) │
+└──────┬───────────────────────┘
+       │
+       ↓
+┌──────────────────────────────┐
+│  Loads Skill Instructions    │
+│  - How to analyze            │
+│  - What patterns to find     │
+│  - Output format             │
+└──────┬───────────────────────┘
+       │
+       ↓
+┌──────────────────────────────┐
+│  Executes Task               │
+│  - Scans files               │
+│  - Analyzes content          │
+│  - Generates insights        │
+└──────┬───────────────────────┘
+       │
+       ↓
+┌──────────────────────────────┐
+│  Returns Results to User     │
+│  ✓ Structured insights       │
+│  ✓ Actionable feedback       │
+│  ✓ Examples with timestamps  │
+└──────────────────────────────┘
+```
+
+> 💡 **Skills work across all Claude platforms:** Claude.ai web interface, Claude Code CLI, and Claude API
+
+## 📚 Documentation
+
+- **[SETUP.md](./SETUP.md)** - Complete installation and setup guide for Claude.ai, Claude Code, and API
+- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - Technical architecture, flow diagrams, and how skills work internally
+- **[CONTRIBUTING.md](./CONTRIBUTING.md)** - Guidelines for creating and contributing skills
 
 ## Skills
 
@@ -312,6 +359,12 @@ Pre-built workflow skills for 78 SaaS apps via [Rube MCP (Composio)](https://com
 - [Zoom Automation](./zoom-automation/) - Automate Zoom: meetings, recordings, participants, webinars, and reports.
 
 ## Getting Started
+
+> 📖 **New to Claude Skills?** Check out our comprehensive guides:
+> - **[SETUP.md](./SETUP.md)** - Complete installation and configuration instructions
+> - **[ARCHITECTURE.md](./ARCHITECTURE.md)** - Understanding how skills work with flow diagrams
+
+### Quick Start
 
 ### Using Skills in Claude.ai
 
